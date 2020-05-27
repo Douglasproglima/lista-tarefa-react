@@ -1,0 +1,22 @@
+:root {
+  --indigo: #675aa9;
+  --indigo-houver: #7d6dca;
+  --indigo-active: #605499;
+  --indigo-result: rgb(--indigo, --indigo-houver, --indigo-active);
+  --white: #fff;
+  --success: #10c469;
+  --info: #35b8e0;
+  --warning: #f9c851;
+  --danger: #ff5b5b;
+  --light: #323a46;
+  --dark: #1c1f24;
+  --white: #f1f5f7;
+  --purple: #5b69bc;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: "Roboto",sans-serif;
+  --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}

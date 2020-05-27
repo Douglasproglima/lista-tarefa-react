@@ -1,0 +1,172 @@
+:root {
+  --indigo: #675aa9;
+  --indigo-houver: #7d6dca;
+  --indigo-active: #605499;
+  --indigo-result: rgb(--indigo, --indigo-houver, --indigo-active);
+  --white: #fff;
+  --success: #10c469;
+  --info: #35b8e0;
+  --warning: #f9c851;
+  --danger: #ff5b5b;
+  --light: #323a46;
+  --dark: #f1f5f7;
+  --purple: #5b69bc;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: "Roboto",sans-serif;
+  --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+  color: var(--dark);
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  font-weight: 400;
+  line-height: 1.5em;
+  background-color: #282e38;
+  background: #282e38;
+  color: var(--dark);
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+hr {
+  margin: 20px 0;
+  border: 2px;
+  border-top: 3px solid var(--indigo);
+}
+
+/* Tabela Superior */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 2px solid var(--indigo-active);
+  margin-top: 20px;
+}
+
+th, td {
+  text-align: center;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: var(--indigo-active);
+}
+
+/* Resultado  */
+.paragrafo-result {
+text-align: center;
+background: var(--indigo-result);
+margin-top: 20px;
+padding: 10px;
+border-radius: 15px;
+background: #323a46;
+box-sizing: border-box;
+box-shadow: 0em 0rem 5rem #546072;
+border: 3px solid var(--indigo-houver)
+}
+
+.paragrafo-result-error {
+  background: var(--indigo-result);
+  margin-top: 20px;
+}
+
+/* Mensagens e Alerts */
+.alert {
+padding: 25px;
+border: 1px solid gray;
+border-radius: 3px;
+margin: 10px;
+font-size: 18px;
+}
+.error {
+  padding: 0 5px 0 5px;
+  font-size: 16px;
+  color: #fba49bb0;
+}
+.error strong{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  color:#f57977c2
+}
+.error:hover {
+  background-position: right center;
+}
+
+.sucess {
+border-color: #87c940;
+color: #FFF;
+background-color: #a0d468;
+}
+.wawrnig {
+border-color: #f4a911;
+color: #FFF;
+background-color: #f6bb42;
+}
+.info {
+border-color: #2f80e7;
+color: #FFF;
+background-color: #5d9cec;
+}
+
+/* Buttons */
+.qtde-chars {
+font-size: 18px;
+width: 80px;
+height: 30px;
+padding: 0 20px;
+color: rgb(43, 41, 41);
+}
+.qtde-chars:focus {
+outline: 3px solid var(--dark);
+}
+
+.btn-pwd {
+border: none;
+background-image: linear-gradient(to right, #5C258D 0%, #4389A2 51%, #5C258D 100%);
+/* background: var(--indigo); */
+color: var(--dark);
+font-size: 18px;
+font-weight: 700;
+height: 40px;
+cursor: pointer;
+margin-top: 25px;
+}
+
+.btn-senha:hover {
+background: var(--indigo-houver);
+background-position: right center;
+}
+
+.btn-senha:active {
+background: var(--indigo-active);
+}
+
+/* Checkbox */
+.checkbox input {
+  width: 20px;
+  height: 20px;
+}
+.checkbox label {
+margin-left: 5px;
+}
