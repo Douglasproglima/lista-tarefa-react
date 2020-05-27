@@ -1,0 +1,44 @@
+button {
+  /* display: block; */
+  width: 10%;
+  height: 43px;
+  margin-top: 10px;
+  }
+
+form input, form label {
+  /* display: block; */
+  width: 90%;
+  height: 40px;
+  margin-top: 10px;
+}
+
+form input {
+  font-size: 18px;
+  height: 40px;
+  padding: 0 20px;
+  color: #323a46
+}
+
+form input:focus {
+  outline: 3px solid var(--white);
+}
+
+form button {
+  border: none;
+  background-image: linear-gradient(to right, #5C258D 0%, #4389A2 51%, #5C258D 100%);
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 700;
+  height: 43px;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+form button:hover {
+  background: var(--indigo-houver);
+  background-position: right center;
+}
+
+form button:active {
+  background: var(--indigo-active);
+}
